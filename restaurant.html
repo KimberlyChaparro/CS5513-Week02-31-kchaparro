@@ -14,8 +14,13 @@
 
 		li {
 			display: inline-block;
+      width: 50%;
       padding: 20px;
 		}
+
+    img {
+      width: 25%;
+    }
 	</style>
   <!-- load jquery to use for external json loading -->
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -28,6 +33,7 @@
 	<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
+  <h1>My Favorite Tiramisu From Places In Sonoma County</h1>
 	<!-- create an element that can be the root element for your react application -->
 	<div id="myApp"></div>
 
@@ -37,7 +43,7 @@
 
   // define a react page component (some JSX that will get react to make html elements
   // in the view (html output) based on the data it receives from the model (json)
-    function ProjectList(props) {
+    function RestaurantList(props) {
       // return some output for the component using JSX
       return <div>
           <ol>
@@ -47,9 +53,20 @@
                 // copy current array value into item and pass to arrow function
                 (item,index) => (
                   <li key={index}>
+                    <b>
+                    {item.city}</b>
                     <a href={item.link}>
-                      {item.firstname}
+                      {item.restaurantName}
                     </a>
+                    <ol>
+                      <li>
+                        <br />
+                  <img src={item.image_path} alt={item.title} />
+                     <a href={item.image_link}>
+                      {item.title}
+                    </a>
+                        </li>
+                    </ol>
                   </li>
                 )
               )
@@ -65,11 +82,10 @@
     // then call react render() to output component into existing element
     // render() takes 2 arguments: (1) JSX component, (2) the html element to render into
     myRoot.render(
-      <ProjectList list={jsonFromJquery} />
+      <RestaurantList list={jsonFromJquery} />
     );
   }
   );
   </script>
 </body>
-<h1>hiii thereeeeeee</h1>
 </html>

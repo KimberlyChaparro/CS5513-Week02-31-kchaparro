@@ -15,7 +15,7 @@ const requestListener = function (req, res) {
 
   if (req.url === "/") {
     // check request url, if root, return html file
-    fs.readFile(__dirname + "/weather.html")
+    fs.readFile(__dirname + "/restaurant.html")
       .then(contents => {
         // set http response header entry
         res.setHeader("Content-Type", "text/html; charset=UTF-8");

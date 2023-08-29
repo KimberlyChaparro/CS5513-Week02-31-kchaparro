@@ -1,14 +1,26 @@
 [
     {
-        "firstname":"Fred",
-        "link":"https://www.santarosa.edu"
+      "city": "Santa Rosa: ",
+        "restaurantName":"Lococo's Cucina Rustica",
+        "link":"https://lococos.net/",
+      "image_path": "assets/lococo.png",
+      "title": "Tiramisu from Lococo's",
+      "image_link": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020"
     },
     {
-        "firstname":"Jane",
-        "link":"https://www.apple.com"
+       "city": "Sebastopol: ",
+        "restaurantName":"Portico",
+        "link":"https://www.porticosocialfood.com/",
+      "image_path": "assets/lococo.png",
+      "title": "Tiramisu from Sebastopol",
+       "image_link": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020"
     },
     {
-        "firstname":"Mary",
-        "link":"https://www.w3schools.com"
+       "city": "Petaluma: ",
+        "restaurantName":"Caffe Giostra",
+        "link":"https://m.facebook.com/profile.php?id=100057342014937&_rdr",
+      "image_path": "assets/lococo.png",
+      "title": "Tiramisu from Petaluma",
+       "image_link": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020"
     }
 ]
