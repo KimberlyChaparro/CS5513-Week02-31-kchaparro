@@ -26,7 +26,7 @@ const requestListener = function (req, res) {
       });
   } else {
     // if request url not root, return json file
-    fs.readFile(__dirname + "/data.json")
+    fs.readFile(__dirname + "/tiramisu.json")
       .then(contents => {
         // set http response header entry
         res.setHeader("Content-Type", "application/json; charset=UTF-8");
