@@ -1,6 +1,5 @@
 // load the core node http module
 const http = require("http");
-// hiiii
 
 // load the core node filesystem (fs) module, using js promises instead of callbacks
 // a promise represents eventual completion of asynch operation and its result
