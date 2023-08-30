@@ -3,24 +3,24 @@
       "city": "Santa Rosa: ",
         "restaurantName":"Lococo's Cucina Rustica",
         "link":"https://lococos.net/",
-      "image_path": "assets/lococo.png",
-      "title": "Tiramisu from Lococo's",
+      "image_path": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020",
+      "title": "Source: Google Review for Lococo's",
       "image_link": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020"
     },
     {
        "city": "Sebastopol: ",
         "restaurantName":"Portico",
         "link":"https://www.porticosocialfood.com/",
-      "image_path": "assets/lococo.png",
-      "title": "Tiramisu from Sebastopol",
-       "image_link": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020"
+      "image_path": "https://lh3.googleusercontent.com/p/AF1QipP6DUBwqjZ98uAmgTA3cL8XZ-mWyY9PBYfh5iP2=s1360-w1360-h1020",
+      "title": "Source: Google Review for Portico",
+       "image_link": "https://lh3.googleusercontent.com/p/AF1QipP6DUBwqjZ98uAmgTA3cL8XZ-mWyY9PBYfh5iP2=s1360-w1360-h1020"
     },
     {
        "city": "Petaluma: ",
         "restaurantName":"Caffe Giostra",
         "link":"https://m.facebook.com/profile.php?id=100057342014937&_rdr",
-      "image_path": "assets/lococo.png",
-      "title": "Tiramisu from Petaluma",
-       "image_link": "https://lh3.googleusercontent.com/p/AF1QipMnHnK7Ps9rDvzOsuD_94P1oGjh0mi3uvwZzwMB=s1360-w1360-h1020"
+      "image_path": "https://lh3.googleusercontent.com/p/AF1QipNZ-7BvvwUe5UQb6_U6RgMysmbxwtUeVTCT17xy=s1360-w1360-h1020",
+      "title": "Source: Google Review for Caffe Giostra",
+       "image_link": "https://lh3.googleusercontent.com/p/AF1QipNZ-7BvvwUe5UQb6_U6RgMysmbxwtUeVTCT17xy=s1360-w1360-h1020"
     }
 ]
